@@ -99,9 +99,9 @@ r.mainloop()
 """
 
 #TUTORIAL 8 - Using Classes {in conjunction with Python Programming Tutorial - 29 - Classes and Objects: https://www.youtube.com/watch?v=POQIIKb1BZA&index=29&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ }
-#Must ReDo. A malfunction occured.
 #{URL: https://www.youtube.com/watch?v=IYHJRnVOFlw}
 
+"""
 from tkinter import *
 
 
@@ -121,4 +121,14 @@ class CodysButtons:
 
 root = Tk()
 b = CodysButtons(root)
+root.mainloop()
+"""
+
+#Tutorial 9 - Creading Drop Down Menus
+#URL: https://www.youtube.com/watch?v=PSm-tq5M-Dc
+
+from tkinter import *
+
+root = Tk()
+
 root.mainloop()
