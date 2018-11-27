@@ -1,4 +1,4 @@
-#TUTORIAL 1 w/ thenewboston
+#TUTORIAL 1 w/ thenewboston - Introduction
 
 """
 from tkinter import *
@@ -22,7 +22,7 @@ button4.pack(side=BOTTOM)
 root.mainloop()
 """
 
-#TUTORIAL 2 
+#TUTORIAL 2 - Organizing your layout
 """
 from tkinter import *
 root =Tk()
@@ -35,7 +35,7 @@ three.pack(side=LEFT, fill=Y)
 root.mainloop()
 """
 
-#TUTORIAL 3/4/5?
+#TUTORIAL 3/4/5? {3 - Fitting Widgets into Layout ; 4 - Grid Layout ; 5 - More grid layout}
 """ SCP FOUNDATION GOOF
 from tkinter import *
 root=Tk()
@@ -59,7 +59,7 @@ c = Checkbutton(root, text="Keep me logged in")
 c.grid(columnspan=2)
 root.mainloop()
 """
-#TUTORIAL 6
+#TUTORIAL 6 - Binding functions to layouts
 """
 from tkinter import *
 root=Tk()
@@ -72,7 +72,7 @@ button_1.pack()
 r.mainloop()
 """
 
-#TUTORIAL 7
+#TUTORIAL 7 - Mouse Click Events
 from tkinter import *
 root=Tk()
 r = root 
