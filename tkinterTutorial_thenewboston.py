@@ -98,6 +98,27 @@ frame.pack()
 r.mainloop()
 """
 
-#TUTORIAL 8 - Using Classes
+#TUTORIAL 8 - Using Classes {in conjunction with Python Programming Tutorial - 29 - Classes and Objects: https://www.youtube.com/watch?v=POQIIKb1BZA&index=29&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ }
 #Must ReDo. A malfunction occured.
 #{URL: https://www.youtube.com/watch?v=IYHJRnVOFlw}
+
+from tkinter import *
+
+
+class CodysButtons:
+	def __init__(self, master):
+		frame = Frame(master)
+		frame.pack()
+
+		self.printButton = Button(frame, text="Print Message", command=self.printMessage)
+		self.printButton.pack(side=LEFT)
+
+		self.quitButton = Button(frame, text="Quit", command=frame.quit)
+		self.quitButton.pack(side=LEFT)
+
+	def printMessage(self):
+		print("Wow, This actually worked!")
+
+root = Tk()
+b = CodysButtons(root)
+root.mainloop()
