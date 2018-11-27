@@ -36,7 +36,10 @@ root.mainloop()
 """
 
 #TUTORIAL 3/4/5? {3 - Fitting Widgets into Layout ; 4 - Grid Layout ; 5 - More grid layout}
-""" SCP FOUNDATION GOOF
+""" 
+SCP FOUNDATION GOOF
+
+
 from tkinter import *
 root=Tk()
 label_1 = Label(root, text="Name")
@@ -58,9 +61,12 @@ label_5.grid(row=4, column=0, sticky=E)
 c = Checkbutton(root, text="Keep me logged in")
 c.grid(columnspan=2)
 root.mainloop()
+
+
 """
 #TUTORIAL 6 - Binding functions to layouts
 """
+
 from tkinter import *
 root=Tk()
 r=root
@@ -73,8 +79,25 @@ r.mainloop()
 """
 
 #TUTORIAL 7 - Mouse Click Events
+"""
+
 from tkinter import *
 root=Tk()
 r = root 
-
+def leftClick(event):
+	print("Left")
+def RightClick(event):
+	print("Right")
+def MiddleClick(event):
+	print("Middle")
+frame = Frame(r, width=300, height=250)
+frame.bind("<Button-1>", leftClick)
+frame.bind("<Button-2>", MiddleClick)
+frame.bind("<Button-3>", RightClick)
+frame.pack()
 r.mainloop()
+"""
+
+#TUTORIAL 8 - Using Classes
+#Must ReDo. A malfunction occured.
+#{URL: https://www.youtube.com/watch?v=IYHJRnVOFlw}
